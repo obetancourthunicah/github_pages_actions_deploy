@@ -1,0 +1,25 @@
+@primary-bg-color: #000;
+@primary-tx-color: #fff;
+
+* {
+    box-sizing: border-box;
+}
+
+.center-on-page {
+    display: flex;
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: @primary-bg-color;
+    color: @primary-tx-color;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.demo-pages {
+    .center-on-page();
+}
